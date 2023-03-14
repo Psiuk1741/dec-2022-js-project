@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+}
+
+a {
+    display: flex;
+    width: 220px;
+    height: 30px;
+    border: 2px solid black;
+    text-decoration: none;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    width: 90%;
+    font-size: 20px;
+}
+
+#user-info {
+    padding: 1px;
+    background: lightpink;
+}
+
+.but {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.posts {
+
+    /*background: brown;*/
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.post {
+    width: 19%;
+    height: 160px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.post:nth-child(even) {
+    background: lightblue;
+}
+
+.post:nth-child(odd) {
+    background: lemonchiffon;
+}
+
+.post:hover {
+    background: #ababab;
+}

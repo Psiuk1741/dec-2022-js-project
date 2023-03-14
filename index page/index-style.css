@@ -1,0 +1,38 @@
+html, body {
+    height: 100%; /* Висота зовнішнього елемента */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    display: flex;
+    width: 290px;
+    height: 35px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+
+#wrap {
+    background: springgreen;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 50%;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-top: 3%;
+    padding-left: 17%;
+}
+
+
+.block:nth-child(4n+1) {
+    background: lightseagreen;
+}
+
+.block:nth-child(4n) {
+    background: lightseagreen;
+}

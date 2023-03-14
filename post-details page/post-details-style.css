@@ -1,0 +1,31 @@
+body {
+    background: lightskyblue;
+}
+
+#h1Comm {
+    text-align: center;
+    font-size: 48px;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.comm {
+    width: 24%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.comm:nth-child(even) {
+    background: lightpink;
+}
+
+.comm:nth-child(odd) {
+    background: cornflowerblue;
+}
+
