@@ -1,7 +1,7 @@
 # Mini project
 ## [Click to open](https://psiuk1741.github.io/dec-2022-js-project/)
 
-###ТЗ проекту
+##ТЗ проекту
 
 В index.html
 1 отримати масив об'єктів з endpoint'а https://jsonplaceholder.typicode.com/users
